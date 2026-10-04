@@ -1,0 +1,12 @@
+# Cloudflare Pages / Netlify 等静态托管平台的响应头配置
+
+# VESTA 的 .vesta 文件其实是纯文本, 用浏览器打开就能看, 不要变成下载
+/*.vesta
+  Content-Type: text/plain; charset=utf-8
+
+# 图片与字体之类的静态资源可以缓存久一点
+/*.png
+  Cache-Control: public, max-age=86400
+
+/*.jpg
+  Cache-Control: public, max-age=86400
