@@ -83,7 +83,7 @@ window.FILES = {
    "dir": "other",
    "name": "其他",
    "url": "files/other/",
-   "count": 3,
+   "count": 4,
    "items": [
     {
      "name": "CsCl.vesta",
@@ -102,9 +102,15 @@ window.FILES = {
      "url": "files/other/NaCl.vesta",
      "size": "16 KB",
      "bytes": 16435
+    },
+    {
+     "name": "Ti_6Al_2C_4.vesta",
+     "url": "files/other/Ti_6Al_2C_4.vesta",
+     "size": "5 KB",
+     "bytes": 5343
     }
    ]
   }
  ],
- "updated": "2026-10-04"
+ "updated": "2026-10-11"
 };
